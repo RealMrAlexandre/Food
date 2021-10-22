@@ -1,0 +1,166 @@
+*{
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+*,*:before,*after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input:-ms-clear{display: none;}
+button{cursor: pointer;}
+button:-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} *{
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Roboto, sans-serif;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+.wrapper {
+
+}
+
+.container {
+	max-width: 1194px;
+	margin: auto;
+}
+
+.content {
+
+}
+
+.header {
+
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav__logo {
+	margin: 10px 76px 15px 0;
+}
+
+.nav__logo img {
+
+}
+
+.nav__search {
+	margin-right: 190px;
+	position: relative;
+	right: 0;
+}
+
+.nav__search input {
+	width: 620px;
+	height: 49px;
+	border-radius: 10px;
+	color: rgba(87, 86, 91, 1);
+	line-height: 23px;
+	background-color: #E5E5E5;
+	padding: 13px 15px 13px 20px;
+
+}
+
+.nav__search button {
+	background-color: #E5E5E5;
+	position: absolute;
+	right: 20px;
+	top: 13px;
+}
+
+.nav__button {
+
+}
+
+.nav__button a {
+	color: black;
+}
+
+.nav__button div{
+	width: 99px;
+	height: 49px;
+	border-radius: 30px;
+	background-color: #EBEBEB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__button div:hover{
+	background-color: #424242;
+	color: white;
+}
+
+.nav__cart {
+	margin-left: auto;
+	position: relative;
+	bottom: 0;
+	left: 0;
+
+}
+
+.nav__cart .cart__button {
+	width: 50px;
+	height: 50px;
+	background-color: #F66A15;
+	border-radius: 50%;
+}
+
+.cart__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button__counter {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #FFAF19;
+	padding: 5px;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 2px;
+	left: 35px;
+
+}
