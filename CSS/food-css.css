@@ -162,5 +162,189 @@ a:link, a:visited {
 	position: absolute;
 	bottom: 2px;
 	left: 35px;
+}
+
+.main {
+	max-width: 1194px;
+	margin: auto;
+}
+
+.main__info {
+	margin-bottom: 50px;
+}
+
+
+.main_slide1 {
+	width: 1190px;
+	height: 399px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 1.png');
+	padding-top: 76px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.main_slide1 h2 {
+	font-size: 50px;
+	color: white;
+	line-height: 51px;
+	width: 372px;
+	margin-left: 100px;
+	margin-bottom: 15px;
+	font-style: bold;
+}
+
+.main_slide1 p {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: white;
+	width: 388px;
+	margin-left: 100px;
+	margin-bottom: 32px;
 
 }
+
+.main_slide1 button {
+	margin-left: 100px;
+	width: 245px;
+	height: 48px;
+	border-radius: 30px;
+	background-color: #F47322;
+	color: white;
+	font-weight: 500;
+}
+
+.promo {
+	max-width: 1194px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.promo1 {
+	width: 570px;
+	height: 380px;
+	border-radius: 30px;
+	background-image: url('../IMG/Rectangle 5.png');
+	color: white;
+
+}
+
+.promo1__top {
+	padding-left: 32px;
+	padding-top: 36px;
+}
+
+.promo1__top h2 {
+	font-size: 24px;
+	line-height: 23px;
+	margin-bottom: 21px;
+}
+
+.promo1__top p {
+	font-size: 16px;
+	line-height: 23px;
+	width: 168px;
+	margin-bottom: 72px;
+}
+
+.promo1__bottom {
+	padding-left: 32px;
+}
+
+.promo1__bottom h2 {
+	font-size: 24px;
+	line-height: 23px;
+	margin-bottom: 8px;
+}
+
+.promo1__bottom span {
+	font-size: 30px;
+	line-height: 23px;
+	font-weight: bold;
+}
+
+.promo1__bottom p {
+	margin-bottom: 25px;
+}
+
+.promo1__bottom button {
+	width: 232px;
+	height: 49px;
+	border-radius: 50px;
+	background-color: white;
+	color: #5F5F61;
+	line-height: 23px;
+	font-weight: bold;
+}
+
+.promo2 {
+	width: 570px;
+	height: 380px;
+	border-radius: 30px;
+	background-image: url('../IMG/Rectangle 6.png');
+	background-size: cover;
+	color: white;
+	padding-bottom: 110px;
+}
+
+/* Padding-bottom 110 для расстояния перед следующим блоком */
+
+.promo2__top {
+	padding-left: 32px;
+	padding-top: 36px;
+}
+
+.promo2__top h2 {
+	font-size: 24px;
+	line-height: 23px;
+	margin-bottom: 21px;
+}
+
+.promo2__top p {
+	font-size: 16px;
+	line-height: 23px;
+	width: 168px;
+	margin-bottom: 72px;
+}
+
+.promo2__bottom {
+	padding-left: 32px;
+}
+
+.promo2__bottom h2 {
+	font-size: 24px;
+	line-height: 23px;
+	margin-bottom: 8px;
+}
+
+.promo2__bottom span {
+	font-size: 30px;
+	line-height: 23px;
+	font-weight: bold;
+}
+
+.promo2__bottom p {
+	margin-bottom: 25px;
+}
+
+.promo2__bottom a {
+
+}
+
+.promo2__bottom button {
+	width: 232px;
+	height: 49px;
+	border-radius: 50px;
+	background-color: white;
+	color: #5F5F61;
+	line-height: 23px;
+	font-weight: bold;
+}
+
+
+
+
