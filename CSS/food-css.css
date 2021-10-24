@@ -222,7 +222,10 @@ a:link, a:visited {
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 110px;
 }
+
+/* Padding-bottom 110 для расстояния перед следующим блоком */
 
 .promo1 {
 	width: 570px;
@@ -288,10 +291,8 @@ a:link, a:visited {
 	background-image: url('../IMG/Rectangle 6.png');
 	background-size: cover;
 	color: white;
-	padding-bottom: 110px;
-}
 
-/* Padding-bottom 110 для расстояния перед следующим блоком */
+}
 
 .promo2__top {
 	padding-left: 32px;
@@ -344,6 +345,213 @@ a:link, a:visited {
 	line-height: 23px;
 	font-weight: bold;
 }
+
+.delivery {
+	max-width: 1194px;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+.delivery h2 {
+	font-size: 32px;
+	line-height: 23px;
+	margin-bottom: 47px;
+}
+
+.delivery__top {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.block1 {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 7.png');
+	margin-right: 32px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block1__title {
+	width: 65px;
+	height: 33px;
+	border-radius: 50px;
+	background-color: #D0FD89;
+	color: #49494F;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.block2 {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 8.png');
+	background-size: cover;
+	margin-right: 32px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block2__title {
+	width: 109px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #AEBC41;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+
+}
+
+
+.block3 {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 9.png');
+	background-size: cover;
+	margin-right: 32px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block3__title {
+	width: 95px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #B86B78;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+
+.block4 {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 10.png');
+	background-size: cover;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block4__title {
+	width: 83px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #D68334;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+
+.delivery__bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.block1__bottom {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 11.png');
+	margin-right: 32px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block1__title-bottom {
+	width: 95px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #CD6255;
+	color: white;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.block2__bottom {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 12.png');
+	margin-right: 32px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block2__title-bottom {
+	width: 101px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #FFFDBF;
+	color: #49494F;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.block3__bottom {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 13.png');
+	margin-right: 32px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block3__title-bottom {
+	width: 125px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #F6FDC8;
+	color: #49494F;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.block4__bottom {
+	width: 275px;
+	height: 182px;
+	border-radius: 10px;
+	background-image: url('../IMG/Rectangle 14.png');
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.block4__title-bottom {
+	width: 147px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #FEF7FE;
+	color: #49494F;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
 
 
 
